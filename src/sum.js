@@ -1,6 +1,8 @@
-function sum(a, b) {
-    return a + b;
+function sum(x,y){
+ return x+y
 }
 
-console.log(sum(1, 2));
-console.log(sum("Hello", [0, 1, 2]));
+const rst1 = sum(1,1)
+const rst2 = sum("Hello", [0,1,2])
+console.log(rst1)
+console.log(rst2)
